@@ -3,7 +3,7 @@ class Ripplet < Formula
   homepage "https://github.com/hsiaosiyuan0/ripplet"
   url "https://github.com/hsiaosiyuan0/ripplet.git", branch: "master"
   version "0.0.1"
-  depends_on :go => "1.16.0"
+  depends_on "go"
 
   def install
     system "make", "ripplet"
